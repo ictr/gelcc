@@ -25,11 +25,11 @@ def calculate_core_count(vcf_path, output_path, phen_path):
         are_refs = lambda x: list(map(is_ref, get_sample_gts(variant, x)))
         c2s = lambda cinds: [cind2sample_name[s] for s in cinds]
         
-        # observed number of married-in controls (unrelated to core, unaffected)
+        # observed number of married-in controls (unrelated to sibs)
 ##module2  mic_ids is c2s(list of sequenced fam102 MCIs)
         mic_ids = c2s(['102_346', '102_124'])
         mic_ref_count = sum(are_refs(mic_ids))
-##module3 seq_core_ids is c2s(list of sequenced fam102 core LCs)
+##module3 seq_core_ids is c2s(list of sequenced fam102 LCS (affected sibs))
         seq_core_ids  = c2s(['102_112'])
         seq_core_carrier_count = sum(are_carriers(seq_core_ids))
 ##module4: defines desc_ids for the 2 inferred core LCs in fam102
