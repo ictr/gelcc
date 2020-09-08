@@ -873,7 +873,7 @@
 	UUUAFFFFABRRRQAUyn0ygD//2Q==
 	</data>
 	<key>DKDChangeTimeStamp</key>
-	<string>2020-09-08 17:57:28 +0000</string>
+	<string>2020-09-08 20:35:20 +0000</string>
 	<key>DKDCreateTimeStamp</key>
 	<string>2020-09-03 18:37:28 +0000</string>
 	<key>DKDDisplayGraphicDetails</key>
@@ -11296,7 +11296,7 @@
 		<string>NO</string>
 	</dict>
 	<key>DKDSaveTimeStamp</key>
-	<string>2020-09-08 17:57:44 +0000</string>
+	<string>2020-09-08 20:35:28 +0000</string>
 	<key>DKDTablet</key>
 	<dict>
 		<key>PenMax</key>
@@ -11492,7 +11492,7 @@
 		<key>CursorMode</key>
 		<string>Nothing</string>
 		<key>DocCenter</key>
-		<string>{372.866738656, 575.254647989}</string>
+		<string>{340.195522334, 218.280492838}</string>
 		<key>DocumentFileName</key>
 		<string>/Users/claudiopikielny1/Documents/GitHub/gelcc/20200908 fam34 sibs annotated pc case.ezdraw</string>
 		<key>DrawersOnMainView</key>
