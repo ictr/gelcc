@@ -848,7 +848,7 @@
 	5fUUALRSbl9RRuX1FAC0Um5fUUbl9RQAtFJuX1FG5fUUALRSbl9RRuX1FAH/2Q==
 	</data>
 	<key>DKDChangeTimeStamp</key>
-	<string>2020-09-03 20:44:15 +0000</string>
+	<string>2020-09-08 21:10:59 +0000</string>
 	<key>DKDCreateTimeStamp</key>
 	<string>2019-08-19 16:40:29 +0000</string>
 	<key>DKDDisplayGraphicDetails</key>
@@ -6456,7 +6456,7 @@
 		<string>NO</string>
 	</dict>
 	<key>DKDSaveTimeStamp</key>
-	<string>2020-09-03 20:44:58 +0000</string>
+	<string>2020-09-08 21:11:17 +0000</string>
 	<key>DKDTablet</key>
 	<dict>
 		<key>PenMax</key>
@@ -6652,7 +6652,7 @@
 		<key>CursorMode</key>
 		<string>Nothing</string>
 		<key>DocCenter</key>
-		<string>{390.929318333, 801.994725527}</string>
+		<string>{390.929318333, 331.151729826}</string>
 		<key>DocumentFileName</key>
 		<string>/Users/claudiopikielny1/Documents/GitHub/gelcc/20200902 fam102 Musolf core.ezdraw</string>
 		<key>DrawersOnMainView</key>
