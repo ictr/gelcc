@@ -34,7 +34,6 @@ def calculate_sib_count(vcf_path, output_path, phen_path):
         seq_sib_ids  = c2s(['34_3','34_8','34_15'])
         seq_sib_carrier_count = sum(are_carriers(seq_sib_ids))
 ##module4: defines desc_ids for the 3 inferred sib LCs in fam34
-# number of inferred sib carriers based on sequence of descendants is:  inf-sib-LC = (313, 311, 301) +  (121, 132, 136, 137):
         desc13_ids = c2s(['34_32','34_30'])
         desc5_ids = c2s(['34_21','34_22'])
         desc10_ids = c2s(['34_29'])
