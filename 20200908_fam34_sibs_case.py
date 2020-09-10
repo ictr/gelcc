@@ -14,7 +14,7 @@ def calculate_sib_count(vcf_path, output_path, phen_path):
     vcf_reader = vcf.Reader(open(vcf_path))
 
     out_file = open(output_path, 'w')
-    carrier_counts_H = ['MIC_REF_COUNT','sib_CARRIER_COUNT','NON_sib_CARRIER_COUNT']
+    carrier_counts_H = ['MIC_REF_COUNT','total_sib_CARRIER_COUNT','NON_sib_CARRIER_COUNT']
     identifiers_H = ['CHROM', 'POS', 'ID', 'REF','ALT']
 ##module1  fam_gts_H is list of sequenced fam34 samples
     fam_gts_H = ['34_12','34_14','34_15','34_21','34_22','34_29','34_3','34_30','34_32','34_36','34_8']
@@ -63,6 +63,7 @@ def calculate_sib_count(vcf_path, output_path, phen_path):
         identifiers = [variant.CHROM, variant.POS, variant.ID, variant.REF, variant.ALT]
         carrier_counts = [mic_ref_count, sib_carrier_count, non_sib_carrier_count]
         fam_gts = get_sample_gts(variant, c2s(fam_gts_H))
+        #row is line that gets written using 3 lists above
         row = identifiers + carrier_counts + fam_gts
         tsv_writer.writerow(row)
     
