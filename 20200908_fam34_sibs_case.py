@@ -71,7 +71,7 @@ def calculate_sib_count(vcf_path, output_path, phen_path):
 
 
 def is_carrier(gt):##Boolean function, returns True if gt = "*/0" or gt = "*/1" or gt = "*/2"
-    return '/1' in gt or '/2' in gt or '/3' in gt
+    return '/1' in gt or '/2' in gt or '/3' in gt or '/4' in gt or '/5' in gt or '/6' in gt
     
 def is_ref(gt):  ##Boolean function, returns True only if gt = "0/0"
     return gt == '0/0'
